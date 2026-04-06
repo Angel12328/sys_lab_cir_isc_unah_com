@@ -9,6 +9,17 @@ sudo dnf install podman podman-compose -y  # En Fedora/RHEL
 # O bien:
 sudo apt install podman podman-compose -y  # En Debian/Ubuntu
 
+
+📂 Credenciales de Infraestructura (Importante)
+
+Estos datos están configurados en el compose.yaml y son necesarios para la conexión interna:
+Servicio	Usuario	Contraseña	Base de Datos
+PostgreSQL	odoo	odoo_pass	postgres
+Odoo (App)	odoo	odoo_pass	(Se restaura del backup)
+
+Master Password de Odoo: dnrp-f8ws-cdfm
+(Necesario para restaurar el backup y gestionar bases de datos).
+
 🛠️ Pasos para el Despliegue
 
 Clonar el proyecto:
