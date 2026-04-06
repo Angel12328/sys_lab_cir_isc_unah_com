@@ -1,0 +1,4 @@
+contrasenia master (Master Password): dnrp-f8ws-cdfm
+nombre de la base de datos: is_unah_com_lab_cir
+contraseña de la DB: odoo_pass
+
