@@ -62,7 +62,6 @@ Para recuperar todas las confirmaciones y registros actuales, sigue estos pasos:
 
     Módulos: Cualquier módulo extra debe ir en la carpeta extra-addons/.
 
-Desarrollado por Angel Gabriel Zavala Padilla - ClickSoluciones
 
 
 🔧 Solución de Problemas (Troubleshooting)
