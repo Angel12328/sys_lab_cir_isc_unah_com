@@ -1,4 +1,4 @@
-# 🚀 Sistema de Gestión Odoo 18 - Laboratorio de Circuitos (UNAH)
+# 🚀 Sistema de Gestión Odoo 18 - Laboratorio de Circuitos ISC (UNAH COMAYAGUA)
 
 Este repositorio contiene la configuración completa para desplegar la instancia de Odoo 18 personalizada para el inventario del laboratorio. Está optimizado para ejecutarse con **Podman** en entornos Linux (Fedora/Debian/Ubuntu).
 
