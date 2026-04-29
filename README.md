@@ -116,6 +116,9 @@ DROP DATABASE "is_unah_com_lab_cir2";
 
 Lanzamiento y Monitoreo
 
+# Volver a crear la ejecucion
+podman-compose down
+
 # Levantar los contenedores en segundo plano
 podman-compose up -d
 
