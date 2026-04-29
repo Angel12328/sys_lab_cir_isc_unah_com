@@ -24,7 +24,7 @@ services:
       - USER=odoo
       - PASSWORD=odoo_pass
     volumes:
+      - ./odoo_data:/var/lib/odoo:Z
       - ./extra-addons:/mnt/extra-addons:Z
       - ./config:/etc/odoo:Z
-      - ./data:/var/lib/odoo:Z
     restart: always
