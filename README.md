@@ -102,14 +102,14 @@ podman exec -it odoo-db psql -U odoo -d postgres
 Dentro de Postgres (copia y pega uno por uno):
 
 -- 1. Bloquear nuevas conexiones a la base dañada
-ALTER DATABASE "is_unah_com_lab_cir2" WITH ALLOW_CONNECTIONS = false;
+ALTER DATABASE "is_unah_com_lab_cir" WITH ALLOW_CONNECTIONS = false;
 
 -- 2. Expulsar a los usuarios conectados (Odoo)
 SELECT pg_terminate_backend(pid) FROM pg_stat_activity 
-WHERE datname = 'is_unah_com_lab_cir2' AND pid <> pg_backend_pid();
+WHERE datname = 'is_unah_com_lab_cir' AND pid <> pg_backend_pid();
 
 -- 3. Borrar la base de datos
-DROP DATABASE "is_unah_com_lab_cir2";
+DROP DATABASE "is_unah_com_lab_cir";
 
 -- 4. Salir
 \q
