@@ -1,5 +1,6 @@
 services:
   db:
+    userns_mode: "keep-id"
     image: postgres:15
     container_name: odoo-db
     ports:
@@ -13,6 +14,7 @@ services:
     restart: always
 
   odoo:
+    userns_mode: "keep-id"
     image: odoo:18.0
     container_name: odoo-app
     depends_on:
